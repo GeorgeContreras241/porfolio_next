@@ -1,36 +1,50 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🌐 Portafolio Web - George Contreras
 
-## Getting Started
+¡Bienvenido/a a mi portafolio personal de desarrollo web!
 
-First, run the development server:
+Este proyecto es una web moderna y responsive donde presento mis habilidades, estudios, tecnologías que domino y proyectos desarrollados con enfoque en el stack MERN.
+
+## 🧠 Sobre mí
+
+Soy desarrollador frontend y tecnólogo en Desarrollo de Software por la Universidad de Cundinamarca. Tengo experiencia en el desarrollo de interfaces modernas y responsivas utilizando tecnologías como:
+
+- HTML
+- CSS / Tailwind CSS / CSS Modules
+- JavaScript
+- React / Redux / Zustand
+- Astro / Next.js
+- Node.js / Express / MongoDB / JWT
+
+Busco mi primera oportunidad laboral en el área del desarrollo web.
+
+## 🎓 Formación Académica
+
+- **Universidad de Cundinamarca**  
+  Tecnólogo en Desarrollo de Software
+
+- **Talento Tech - Ministerio de Educación**  
+  Bootcamp intensivo de Desarrollo Web FullStack
+
+## ✨ Características del Portafolio
+
+- Estilo visual tipo *neón digital*, adaptado al diseño de circuitos y tecnología.
+- Diseño responsive, adaptado para escritorio y dispositivos móviles.
+- Sección "Sobre mí" con skills destacados.
+- Animaciones y efectos con Tailwind CSS.
+- Ilustración personalizada destacando tecnologías utilizadas.
+
+## ⚙️ Tecnologías Utilizadas
+
+- **Frontend**: React, Next.js, Tailwind CSS, Astro
+- **Estilado**: Tailwind CSS, CSS Modules
+- **Gestión de estado**: Redux, Zustand
+- **Backend (en proyectos)**: Node.js, Express, MongoDB, JWT
+
+
+## 🚀 Ejecutar localmente
 
 ```bash
+git pendiente
+cd portfolio
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
