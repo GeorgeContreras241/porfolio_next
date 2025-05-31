@@ -54,6 +54,7 @@ export const Nanvar = () => {
         <motion.section
           className="flex flex-col md:hidden  bg-gradient-to-br from-[#000000] via-[#16162c] to-[#000000] bg-400 animate-gradient-x 
           absolute  z-9999 top-0 left-0 w-[250px] h-screen border-r border-[#8fe3ff8e]"
+          initial={{ x: -400 }}
           animate={menu ? { x: 0 } : { x: -400 }}
           transition={{ duration: 0.6, ease: "easeInOut" }}
         >
