@@ -8,8 +8,8 @@ import { Footer } from '@/components/organisms/Footer'
 export default function Home () {
   return (
     <main>
-      <Hero />
       <Nanvar />
+      <Hero />
       <About />
       <Projects />
       <Mini />

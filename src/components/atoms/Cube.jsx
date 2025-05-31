@@ -16,23 +16,23 @@ export const Cube = () => {
 
   return (
     <div className='container'>
-      <div className='cube ' ref={ref}>
-        <div className='side front'>
+      <div className='cube' ref={ref}>
+        <div className='side front neon-celeste'>
           <img src='./react.svg' alt='' />
         </div>
-        <div className='side left'>
+        <div className='side left neon-celeste'>
           <img src='./express.svg' alt='Logo de React' />
         </div>
-        <div className='side right'>
+        <div className='side right neon-celeste'>
           <img src='./js.svg' alt='' />
         </div>
-        <div className='side top'>
+        <div className='side top neon-celeste'>
           <img src='./next.svg' alt='' />
         </div>
-        <div className='side bottom'>
+        <div className='side bottom neon-celeste'>
           <img src='./astro.svg' alt='' />
         </div>
-        <div className='side back'>
+        <div className='side back neon-celeste'>
           <img src='./node.svg' alt='' />
         </div>
       </div>

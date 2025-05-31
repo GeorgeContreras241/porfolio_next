@@ -8,10 +8,58 @@ html {
   }
 body{
     background-color: rgb(43, 41, 41);
+    font-family:  monospace;
+    
 }
 
+/* Menu*/
 
+  .item{
+    width: 25px;
+    height: 2px;
+    background-color: white;
+    transform-origin: left;
+    transition: all 0.4s ease-in-out, opacity 0.1s linear;
+  }
+  .container__menu .item:nth-child(1).active {
+    transform: rotate(42deg);
+    height: 4px;
+    width: 27px;
+  }
+  .container__menu .item:nth-child(2).active {
+    opacity: 0;
+  }
+  .container__menu .item:nth-child(3).active {
+    transform: rotate(-42deg);
+    height: 4px;
+    width: 27px;
+  }
+/**/
 @layer utilities {
+  .neon-text {
+  text-shadow:
+    0 0 35px #00CFFF,
+    0 0 7px #00CFFF,
+    0 0 20px #00CFFF,
+    0 0 0 #00CFFF;
+}
+.neon-lavanda {
+  box-shadow:
+    0 0 5px #c084fc55,
+    0 0 10px #c084fc44,
+    0 0 20px #c084fc33;
+}
+.neon-celeste {
+  box-shadow:
+    0 0 4px #38bdf855,
+    0 0 8px #38bdf844;
+}
+.hover-celeste:hover{
+  box-shadow:
+    0 0 5px #c084fc55,
+    0 0 10px #c084fc44,
+    0 0 20px #c084fc33;
+}
   .animate-gradient-x {
     background-size: 200% 200%;
     animation: gradient-wavy 20s ease-in-out infinite;

@@ -5,10 +5,10 @@ export const Animation = ({ children }) => {
   return (
     <motion.section
       className='relative z-50'
-      initial={{ opacity: .7, scale: .9}}
+      initial={{ opacity: .3, scale: .9}}
       whileInView={{ opacity: 1, scale: 1.0 }}
-      viewport={{ amount: 0.1, once: true }}
-      transition={{ duration: 0.4, once: true }}
+      viewport={{ amount: 0.1 }}
+      transition={{ duration: 0.4}}
     >
       {children}
     </motion.section>

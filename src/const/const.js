@@ -40,6 +40,16 @@ export const shortProjects = [
     img: ""
   },
   {
+    id: 5,
+    title: "Portfolio V3 - Actual",
+    description:
+      "Tercera versión de mi portfolio personal, desarrollado con Next.js y Tailwind CSS para mejor rendimiento y diseño.",
+    technologies: ["HTML", "CSS", "JavaScript", "Astro", "Tailwind CSS", "React"],
+    url: "#",
+    gitHub: "https://github.com/GeorgeContreras241/G-Portafolio_Final",
+    img: ""
+  },
+  {
     id: 6,
     title: "API de Rick y Morty",
     description:
@@ -51,7 +61,7 @@ export const shortProjects = [
   },
   {
     id: 7,
-    title: "Ejercicios Advent JS",
+    title: "Ejercicios Advent JS 2024",
     description:
       "Colección de ejercicios de programación en JavaScript realizados durante el Advent JS.",
     technologies: ["JavaScript"],
@@ -64,7 +74,7 @@ export const shortProjects = [
 export const projects = [
   {
     id: 1,
-    title: "Gestor de Contraseñas",
+    title: "Local - Gestor de Contraseñas",
     description:
       "Aplicación full stack segura para gestionar contraseñas. Las contraseñas se encriptan en el frontend antes de almacenarse en la base de datos, garantizando que solo el usuario pueda desencriptarlas con su clave maestra.",
     technologies: ["React", "Node.js", "JavaScript", "Zustand", "Tailwind CSS", "CSS Modules", "MongoDB", "Bcrypt"],
@@ -97,10 +107,10 @@ export const projects = [
   },
   {
     id: 4,
-    title: "Landing Page de Matcos",
+    title: "Nube - Gestor de Contraseñas",
     description:
-      "Sitio web corporativo para Matcos, diseñado para mostrar sus productos y proyectos destacados. Desarrollado con Astro para óptimo rendimiento.",
-    technologies: ["Astro", "React", "JavaScript", "Tailwind CSS", "CSS Modules", "React Motion"],
+      "Aplicación full stack segura para gestionar contraseñas. Las contraseñas se encriptan en el frontend antes de almacenarse en la base de datos, garantizando que solo el usuario pueda desencriptarlas con su clave maestra.",
+    technologies: ["React", "Zustand", "JavaScript", "Tailwind CSS", "CSS Modules", "Node.js", "Express", "JWT", "MongoDB", "Bcrypt"],
     url: "https://github.com/joaopaulo-dev/calculator-app",
     gitHub: "https://github.com/joaopaulo-dev/calculator-app",
     img: "./project05.webp",

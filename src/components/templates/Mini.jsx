@@ -5,36 +5,39 @@ import { List } from '@/components/atoms/List.jsx'
 
 export const Mini = () => {
   return (
-    <section className='relative z-9999 flex flex-col gap-4 items-center px-4 py-6 min-w-[300px] max-w-[1200px] w-[95%] m-auto'>
-      <h5 className='w-full text-[#0cbbf5] mb-2 font-bold text-[1.5rem] lg:text-[2rem] md:text-[1.2rem] xl:text-[1.8rem]'>
-        Mini proyectos
+    <section className='relative z-[9999] flex flex-col gap-6 items-center px-4 py-10 max-w-[1200px] w-[95%] mx-auto'>
+      <h5 className='w-full text-[#0cbbf5] font-extrabold text-2xl sm:text-3xl mb-4 tracking-wide text-center'>
+        Proyectos Cortos
       </h5>
-      {shortProjects.map(pro => (
-        <details
-          key={pro.id}
-          className='px-4 w-full border-[#0cbbf5]/50 
-            bg-gradient-to-br from-neutral-700 via-blue-500/ to-purple-700/10  backdrop-blur-lg
-            hover:scale-[1.01] hover:backdrop-blur-sm hover:border-[#0cbbf5] transition-trensform duration-400'
-        >
-          <summary className='text-[#8FE3FF] py-2 font-bold mb-2 cursor-pointer'>
-            {pro.title}
-          </summary>
-          <article>
-            <p className='text-[#d8f3ff] text-sm xl:text-[1rem] md:text-[0.8rem] mb-3 w-full'>
-              {pro.description}
-            </p>
-            <ul className='flex flex-wrap gap-2 mb-4'>
-              {pro.technologies.map((tech, index) => (
-                <List data={tech} key={index} />
-              ))}
-            </ul>
-            <div className='flex justify-end gap-2 items-center my-2 text-white'>
-              <Link data={pro.url} />
-              <Link data={pro.github} />
-            </div>
-          </article>
-        </details>
-      ))}
+
+      <div className='w-full flex flex-col gap-4'>
+        {shortProjects.map((pro) => (
+          <details
+            key={pro.id}
+            className='group border border-[#0cbbf5]/40 rounded-xl px-5 py-4 bg-gradient-to-br from-[#0a0f2c]/60 via-[#113452]/40 to-[#37045a]/20 backdrop-blur-md shadow-[0_0_12px_#0cbbf555] transition-all duration-300'
+          >
+            <summary className='text-[#8FE3FF] font-semibold text-lg cursor-pointer flex items-center justify-between'>
+              {pro.title}
+              <span className='transition-transform group-open:rotate-90 ml-2 text-[#0cbbf5]'>⮞</span>
+            </summary>
+
+            <article className='mt-4 text-sm sm:text-base text-[#d8f3ff] space-y-4'>
+              <p>{pro.description}</p>
+
+              <ul className='flex flex-wrap gap-2'>
+                {pro.technologies.map((tech, index) => (
+                  <List key={index} data={tech} />
+                ))}
+              </ul>
+
+              <div className='flex justify-end gap-3'>
+                <Link data={pro.url} text="Visitar" />
+                <Link data={pro.github} text="Repositorio" />
+              </div>
+            </article>
+          </details>
+        ))}
+      </div>
     </section>
   )
 }
