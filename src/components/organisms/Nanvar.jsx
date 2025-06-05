@@ -8,11 +8,7 @@ import { DownloadCv } from "@/components/atoms/DownloadCv";
 export const Nanvar = () => {
   const [menu, setMenu] = useState(false);
   return (
-    <motion.header
-      initial={{ opacity: 0, y: 40 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 1 }}
-      layout
+    <header
       className="fixed z-9999 top-0 w-full flex items-center justify-between"
     >
       <nav className="bg-[#101020]/20  backdrop-blur-2xl max-w-[1280px] w-full px-6 md:py-4 py-2 flex items-center justify-between text-white m-auto font-bold">
@@ -102,6 +98,6 @@ export const Nanvar = () => {
           onClick={() => setMenu(!menu)}
         ></div>
       </nav>
-    </motion.header>
+    </header>
   );
 };

@@ -38,10 +38,10 @@ body{
 @layer utilities {
   .neon-text {
   text-shadow:
-    0 0 35px #00CFFF,
-    0 0 7px #00CFFF,
+    0 0 80px #00CFFF,
+    0 0 5px #00CFFF,
     0 0 20px #00CFFF,
-    0 0 0 #00CFFF;
+    0 0 0  #fdfdfd;
 }
 .neon-lavanda {
   box-shadow:

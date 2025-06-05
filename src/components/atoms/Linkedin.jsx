@@ -1,4 +1,4 @@
-export const Linkedin = () => {
+export const  Linkedin = () => {
   return (
     <a
       href="https://www.linkedin.com/in/georgecontreras241"

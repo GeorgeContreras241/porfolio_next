@@ -116,24 +116,44 @@ export const projects = [
     img: "./project05.webp",
     featured: true
   }
+  ,
+  {
+    id: 5,
+    title: "Nube - Gestor de Contraseñas",
+    description:
+      "Aplicación full stack segura para gestionar contraseñas. Las contraseñas se encriptan en el frontend antes de almacenarse en la base de datos, garantizando que solo el usuario pueda desencriptarlas con su clave maestra.",
+    technologies: ["React", "Zustand", "JavaScript", "Tailwind CSS", "CSS Modules", "Node.js", "Express", "JWT", "MongoDB", "Bcrypt"],
+    url: "https://github.com/joaopaulo-dev/calculator-app",
+    gitHub: "https://github.com/joaopaulo-dev/calculator-app",
+    img: "./project05.webp",
+    featured: true
+  },
+  {
+    id: 6,
+    title: "Nube - Gestor de Contraseñas",
+    description:
+      "Aplicación full stack segura para gestionar contraseñas. Las contraseñas se encriptan en el frontend antes de almacenarse en la base de datos, garantizando que solo el usuario pueda desencriptarlas con su clave maestra.",
+    technologies: ["React", "Zustand", "JavaScript", "Tailwind CSS", "CSS Modules", "Node.js", "Express", "JWT", "MongoDB", "Bcrypt"],
+    url: "https://github.com/joaopaulo-dev/calculator-app",
+    gitHub: "https://github.com/joaopaulo-dev/calculator-app",
+    img: "./project05.webp",
+    featured: true
+  }
 ];
 
 export const technologies = [
-  { name: 'HTML', color: '#E34F26', category: 'frontend' },
-  { name: 'CSS', color: '#1572B6', category: 'frontend' },
-  { name: 'JavaScript', color: '#F7DF1E', category: 'language' },
-  { name: 'React', color: '#61DAFB', category: 'frontend' },
-  { name: 'Redux', color: '#764ABC', category: 'frontend' },
-  { name: 'Zustand', color: '#6D3D7A', category: 'frontend' },
-  { name: 'Astro', color: '#FF5D01', category: 'frontend' },
-  { name: 'Next.js', color: '#a6cfe2', category: 'frontend' },
-  { name: 'Tailwind CSS', color: '#06B6D4', category: 'frontend' },
-  { name: 'CSS Modules', color: '#a6cfe2', category: 'frontend' },
-  { name: 'Node.js', color: '#339933', category: 'backend' },
-  { name: 'Express', color: '#a6cfe2', category: 'backend' },
-  { name: 'JWT', color: '#a6cfe2', category: 'backend' },
-  { name: 'MongoDB', color: '#47A248', category: 'database' },
-  { name: 'MySql', color: '#336791', category: 'database' },
+  { name: 'HTML', color: '#E34F26', category: 'frontend', src: './css_icon.svg' },
+  { name: 'CSS', color: '#1572B6', category: 'frontend', src: './css_icon.svg' },
+  { name: 'JavaScript', color: '#F7DF1E', category: 'language', src: './js_icon.svg' },
+  { name: 'React', color: '#61DAFB', category: 'frontend', src: './react_icon.svg' },
+  { name: 'Redux', color: '#764ABC', category: 'frontend', src: './redux_icon.svg' },
+  { name: 'Zustand', color: '#6D3D7A', category: 'frontend', src: './zustand_icon.svg' },
+  { name: 'Astro', color: '#FF5D01', category: 'frontend', src: './astro_icon.svg' },
+  { name: 'Next.js', color: '#a6cfe2', category: 'frontend', src: './next_icon.svg' },
+  { name: 'Tailwind CSS', color: '#06B6D4', category: 'frontend', src: './tailwind_icon.svg' },
+  { name: 'Node.js', color: '#339933', category: 'backend', src: './node_icon.svg' },
+  { name: 'Express', color: '#a6cfe2', category: 'backend', src: './Express.svg' },
+  { name: 'MongoDB', color: '#47A248', category: 'database', src: './mongo_icon.svg' },
 ];
 
 export const educationData = [

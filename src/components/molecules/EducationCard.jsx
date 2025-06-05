@@ -1,10 +1,7 @@
 export const EducationCard = ({ item }) => {
   return (
-    <article
-      className="flex items-center grow-1 gap-4 border border-[#00A3CC]/40 p-4 px-4 py-1 rounded-2xl 
-    bg-gradient-to-tr from-neutral-700 via-blue-500/ to-purple-700/10 
-    backdrop-blur-lg hover:scale-[1.01] hover:border-[#0cbbf5] transition-transform duration-300"
-    >
+    <article className="flex items-center grow-1 lg:w-[48%] gap-4 border border-[#00A3CC]/40 px-4 py-2 rounded-2xl 
+    backdrop-blur-lg  hover:scale-[1.01] hover:border-[#0cbbf5] transition-transform duration-300">
       <img src={item.logo} alt={item.alt} className={item.logoClass} />
       <div>
         <span className="font-semibold text-[.8rem] md:text-[1.1rem] text-white">
